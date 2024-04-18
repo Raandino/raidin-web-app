@@ -4,7 +4,7 @@
             {{ id }}
         </Title>
     </Head>
-
+    <Header />
     <section class="flex justify-center">
         <img :src="carToDisplay[0].image_url" class=" w-52  md:w-80" alt="">
         <div class="flex flex-col gap-4  self-center">
@@ -33,7 +33,7 @@
         />
     </section> -->
     <section class="">  
-        <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+        <div class="relative overflow-x-auto max-w-5xl shadow-md sm:rounded-lg  mx-auto">
             <table class="w-full text-sm text-left rtl:text-right text-gray-500">
                 <thead class="text-xs text-gray-700 uppercase bg-gray-50">
                     <tr>
@@ -105,6 +105,8 @@
 <script setup >
     import cars from '../mockApi/cars.json'
     import Card from '../components/Card.vue';
+    import  Header  from '../components/Header.vue'
+
 
 
     
