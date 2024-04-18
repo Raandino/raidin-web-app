@@ -1,0 +1,211 @@
+[
+    {
+        "brand": "Toyota",
+        "model": "Yaris",
+        "year": 2022,
+        "color": "White",
+        "body_type": "Hatchback",
+        "engine": {
+            "displacement": 1.5,
+            "fuel_type": "Gasoline",
+            "power": "106 hp"
+        },
+        "transmission": "Automatic",
+        "mileage": 0,
+        "price": 15000,
+        "passenger_capacity": 5,
+        "drivetrain": "Front-wheel Drive",
+        "image_url": "https://i.ibb.co/Sy16ShT/Toyota-Yaris-2022.jpg",
+        "id": "toyota-yaris-2022"
+    },
+    {
+        "brand": "Chevrolet",
+        "model": "Spark",
+        "year": 2022,
+        "color": "Red",
+        "body_type": "Hatchback",
+        "engine": {
+            "displacement": 1.0,
+            "fuel_type": "Gasoline",
+            "power": "80 hp"
+        },
+        "transmission": "Manual",
+        "mileage": 0,
+        "price": 12000,
+        "passenger_capacity": 4,
+        "drivetrain": "Front-wheel Drive",
+        "image_url": "https://i.ibb.co/rMQKHhz/Chevrolet-Spark-2022.jpg",
+        "id": "chevrolet-spark-2022"
+    },
+    {
+        "brand": "Hyundai",
+        "model": "Accent",
+        "year": 2022,
+        "color": "Gray",
+        "body_type": "Sedan",
+        "engine": {
+            "displacement": 1.6,
+            "fuel_type": "Gasoline",
+            "power": "120 hp"
+        },
+        "transmission": "Automatic",
+        "mileage": 0,
+        "price": 16000,
+        "passenger_capacity": 5,
+        "drivetrain": "Front-wheel Drive",
+        "image_url": "https://i.ibb.co/R2sctxY/Hyundai-Accent-2022.jpg",
+        "id": "hyundai-accent-2022"
+    },
+    {
+        "brand": "Nissan",
+        "model": "Versa",
+        "year": 2022,
+        "color": "Blue",
+        "body_type": "Sedan",
+        "engine": {
+            "displacement": 1.6,
+            "fuel_type": "Gasoline",
+            "power": "118 hp"
+        },
+        "transmission": "Manual",
+        "mileage": 0,
+        "price": 17000,
+        "passenger_capacity": 5,
+        "drivetrain": "Front-wheel Drive",
+        "image_url": "https://i.ibb.co/gtjGdt8/nissan-versa-2022-h.webp",
+        "id": "nissan-versa-2022"
+    },
+    {
+        "brand": "Kia",
+        "model": "Rio",
+        "year": 2022,
+        "color": "Black",
+        "body_type": "Hatchback",
+        "engine": {
+            "displacement": 1.6,
+            "fuel_type": "Gasoline",
+            "power": "120 hp"
+        },
+        "transmission": "Manual",
+        "mileage": 0,
+        "price": 16500,
+        "passenger_capacity": 5,
+        "drivetrain": "Front-wheel Drive",
+        "image_url": "https://i.ibb.co/mC42vJH/ki-202.webp",
+        "id": "kia-rio-2022"
+    },
+    {
+        "brand": "Mazda",
+        "model": "Mazda3",
+        "year": 2022,
+        "color": "White",
+        "body_type": "Sedan",
+        "engine": {
+            "displacement": 2.0,
+            "fuel_type": "Gasoline",
+            "power": "155 hp"
+        },
+        "transmission": "Automatic",
+        "mileage": 0,
+        "price": 19000,
+        "passenger_capacity": 5,
+        "drivetrain": "Front-wheel Drive",
+        "image_url": "https://i.ibb.co/8g2cBkq/Kia-Rio-2022.webp",
+        "id": "mazda-mazda3-2022"
+    },
+    {
+        "brand": "Suzuki",
+        "model": "Swift",
+        "year": 2022,
+        "color": "Red",
+        "body_type": "Hatchback",
+        "engine": {
+            "displacement": 1.2,
+            "fuel_type": "Gasoline",
+            "power": "83 hp"
+        },
+        "transmission": "Manual",
+        "mileage": 0,
+        "price": 14500,
+        "passenger_capacity": 5,
+        "drivetrain": "Front-wheel Drive",
+        "image_url": "https://i.ibb.co/3dChYXV/Suzuki-Swift-2022.jpg",
+        "id": "suzuki-swift-2022"
+    },
+    {
+        "brand": "Volkswagen",
+        "model": "Gol",
+        "year": 2022,
+        "color": "Gray",
+        "body_type": "Hatchback",
+        "engine": {
+            "displacement": 1.6,
+            "fuel_type": "Gasoline",
+            "power": "110 hp"
+        },
+        "transmission": "Manual",
+        "mileage": 0,
+        "price": 16000,
+        "passenger_capacity": 5,
+        "drivetrain": "Front-wheel Drive",
+        "image_url": "https://i.ibb.co/CMsn4V3/Volkswagen-Gol-2022.jpg",
+        "id": "volkswagen-gol-2022"
+    },
+    {
+        "brand": "Renault",
+        "model": "Logan",
+        "year": 2022,
+        "color": "White",
+        "body_type": "Sedan",
+        "engine": {
+            "displacement": 1.6,
+            "fuel_type": "Gasoline",
+            "power": "106 hp"
+        },
+        "transmission": "Manual",
+        "mileage": 0,
+        "price": 15500,
+        "passenger_capacity": 5,
+        "drivetrain": "Front-wheel Drive",
+        "image_url": "https://i.ibb.co/85YQq8T/Renault-Logan-2022.jpg",
+        "id": "renault-logan-2022"
+    },
+    {
+        "brand": "Ford",
+        "model": "Fiesta",
+        "year": 2022,
+        "color": "Blue",
+        "body_type": "Hatchback",
+        "engine": {
+            "displacement": 1.6,
+            "fuel_type": "Gasoline",
+            "power": "120 hp"
+        },
+        "transmission": "Manual",
+        "mileage": 0,
+        "price": 15000,
+        "passenger_capacity": 5,
+        "drivetrain": "Front-wheel Drive",
+        "image_url": "https://i.ibb.co/nCFPqKq/Ford-Fiesta-2022.webp",
+        "id": "ford-fiesta-2022"
+    },
+    {
+        "brand": "Peugeot",
+        "model": "208",
+        "year": 2022,
+        "color": "Gray",
+        "body_type": "Hatchback",
+        "engine": {
+            "displacement": 1.2,
+            "fuel_type": "Gasoline",
+            "power": "82 hp"
+        },
+        "transmission": "Manual",
+        "mileage": 0,
+        "price": 14000,
+        "passenger_capacity": 5,
+        "drivetrain": "Front-wheel Drive",
+        "image_url": "https://i.ibb.co/drvkFsr/peu-208.jpg",
+        "id": "peugeot-208-2022"
+    }
+]
