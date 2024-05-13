@@ -1,7 +1,9 @@
-<template>
-    <Header />
-    <div class=" mt-16">
-        <slot/>
+<template >
+    <div>
+        <div class=" p-5 h-screen overflow-hidden">
+            <slot/>
+        </div>
+
     </div>
 </template>
 
@@ -10,9 +12,3 @@ import  Header  from '../components/Header.vue'
 
 </script>
 
-<style>
-    body{
-       background-color: #FAFAFF;
-       padding-inline: 14px;
-    }
-</style>

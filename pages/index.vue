@@ -1,33 +1,34 @@
 <template>
      <Head>
         <Title>
-           Ridin App
+           Raidin App
         </Title>
     </Head>
-    <Header />
-    <section class="flex max-w-5xl gap-4 w-fit flex-wrap mx-auto mt-5">
-        <Card 
-           v-for="(car, index) in cars"
-            :id="car.id"
-            :key="index"
-            :brand="car.brand"
-            :model="car.model"
-            :year="car.year"
-            :mileage="car.mileage"
-            :price="car.price"
-            :image_url="car.image_url"
-        />
-    </section>
+
+    <main class="flex flex-col lg:flex-row gap-4 h-full">
+      <!-- Bot conversation -->
+      <section class=" flex-auto rounded-lg bg-slate-600 grid place-content-center text-white">
+          bot goes here
+      </section>
+
+      <!-- Car suggestions and filters -->
+      <section class=" flex flex-col flex-auto rounded-lg gap-4 overflow-hidden text-white">
+        <section class="bg-slate-600 flex-auto grid place-content-center rounded-lg">
+          Other stuff
+        </section>
+         <section class="bg-slate-600 flex-auto grid place-content-center rounded-lg">
+          Other stuff
+        </section>
+      </section>
+    </main>
+
 </template>
 
 <script setup >
-    import Card from '../components/Card.vue';
-    import cars from '../mockApi/cars.json'
-    import  Header  from '../components/Header.vue'
 
 
 </script>
 
 <style>
-   
 </style>
+
