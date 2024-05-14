@@ -13,8 +13,8 @@
 
       <!-- Car suggestions and filters -->
       <section class=" flex flex-col flex-auto rounded-lg gap-4 overflow-hidden text-white">
-        <section class="bg-slate-600 flex-auto grid place-content-center rounded-lg">
-          Other stuff
+        <section class="bg-slate-600 flex-auto grid place-content-center rounded-lg gap-4">
+          <Card />
         </section>
          <section class="bg-slate-600 flex-auto grid place-content-center rounded-lg">
           Other stuff
