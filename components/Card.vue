@@ -1,54 +1,41 @@
 <template>
-    <div class="flex flex-col justify-between w-100 md:w-80 max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:scale-105 duration-300  ">
-        <NuxtLink to="kia-rio">
-            <img class="p-8 rounded-t-lg" :src="image_url" alt="product image" />
-        </NuxtLink>
-        <div class="px-5 pb-5">
-            <NuxtLink to="kia-rio" class="flex justify-between items-center">
-                <h5 class="text-3xl font-semibold tracking-tight text-gray-900 ">{{ brand }} {{ model }}</h5>
-                <p class="text-xl font-semibold tracking-tight text-gray-900">{{ year }}</p>
-            </NuxtLink>
-                <div class="flex items-center mt-2.5 mb-5">
-                    <div class="flex items-center space-x-1 rtl:space-x-reverse">
-                        <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
-                        </svg>
-                        <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
-                        </svg>
-                        <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
-                        </svg>
-                        <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
-                        </svg>
-                        <svg class="w-4 h-4 text-gray-200 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
-                        </svg>
-                    </div>
-                    <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded ms-3">5.0</span>
-                </div>
-                <div class="flex items-center justify-between">
-                    <span class=" text-xl font-bold text-gray-900 ">{{ price }} CLP</span>
-                    <NuxtLink :to="id" class="text-white bg-primary hover:bg-primary duration-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center ">
-                        Ver Mas
-                    </NuxtLink>
-                </div>
+    <div class="flex flex-col w-80 justify-between  bg-[#1E293B] rounded-lg shadow p-3 gap-3 duration-300 ">
+        <div class="flex gap-1 justify-between">
+            <img class="rounded-lg w-28  object-cover" src="../assets/img/suzuki switf demo.jpeg" alt="">
+
+            <div>
+                <main class="bg-[#0F172A] rounded-lg p-3">
+                        <h3>{{brand}}</h3>
+                        <p>{{ brand }} {{ model }}</p>
+                </main>
+                <section class="flex gap-1 p-2">
+                        <P class="p-2 bg-white text-black rounded-lg">{{ year }}</P>
+                        <P class="p-2 bg-white text-black rounded-lg">{{mileage}}Km</P>
+                </section>
+            </div>
         </div>
+
+
+                    <button class="btn bg-[#E96D6D] text-white">
+                       <HeartIcon class=" h-4" /> Me gusta este vehículo
+                    </button>
+
     </div>
 </template>
 
-<script setup lang="ts">
+<script setup >
 
 const props = defineProps({
     id: String,
     brand: String,
     model: String,
-    year: Number,
-    price: Number,
-    mileage:Number,
+    year: String,
+    price: String,
+    mileage:String,
     image_url:String,
 })
+
+import { HeartIcon } from '@heroicons/vue/24/solid'
 
 
 </script>
