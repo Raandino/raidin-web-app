@@ -8,12 +8,13 @@
 
   <main class="flex flex-col lg:flex-row gap-4 h-full">
     <!-- Bot conversation -->
-    <section class=" flex-auto rounded-lg bg-slate-600 grid place-content-center text-white">
-      bot goes here
+    <section class=" flex-auto rounded-lg flex text-white">
+      <iframe src="https://bot-web-app-raidin.tiiny.site/" frameborder="0" class="w-full h-full rounded-lg"></iframe>
+
     </section>
 
     <!-- Car suggestions and filters -->
-    <section class=" flex flex-col flex-auto rounded-lg gap-4 overflow-hidden text-white">
+    <section class=" flex flex-col flex-auto max-w-[50%] rounded-lg gap-4 overflow-hidden text-white">
       <section class=" flex-auto flex flex-wrap gap-2 place-content-center rounded-lg overflow-y-scroll max-w-5xl self-center">
         <Card 
           v-for="(car, index) in filteredData" :key="index" 
@@ -23,7 +24,7 @@
           :mileage="car.fields.km" 
           />
       </section>
-      <section class="bg-slate-600 flex-auto grid place-content-center rounded-lg">
+      <section class=" flex-auto grid place-content-center rounded-lg">
         <!-- Filters -->
         <CardButtons  @filter="(e)=>{selectedCategory = e}"/>
       </section>
