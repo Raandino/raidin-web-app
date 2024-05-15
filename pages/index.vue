@@ -6,7 +6,7 @@
     </Title>
   </Head>
 
-  <main class="flex flex-col lg:flex-row gap-4 h-full">
+  <main class="flex flex-col lg:flex-row gap-4 h-screen">
     <!-- Bot conversation -->
     <section class=" flex-auto rounded-lg flex text-white">
       <iframe src="https://bot-web-app-raidin.tiiny.site/" frameborder="0" class="w-full h-full rounded-lg"></iframe>
